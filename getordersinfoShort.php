@@ -1,7 +1,7 @@
 <?php
 
-//$openid = $_GET['openId'];
-$openid = "oxnxJ5Gh6DVXFgVOgolX60z6pTHc";
+$openid = $_GET['openId'];
+
 
 
 
