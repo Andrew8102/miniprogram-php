@@ -15,8 +15,8 @@ function vget($url){
 }
 
 //开发者使用登陆凭证 code 获取 session_key 和 openid
-$APPID = 'wxb2b9dbf2acf889f1';
-$AppSecret = 'f18842e1fa10336bd4900ef54fd551e8';
+$APPID = '****';
+$AppSecret = '****';
 $code = $_GET['code'];
 //$code = I('get.code'); //thinkphp I方法
 $url="https://api.weixin.qq.com/sns/jscode2session?appid=".$APPID."&secret=".$AppSecret."&js_code=".$code."&grant_type=authorization_code";
